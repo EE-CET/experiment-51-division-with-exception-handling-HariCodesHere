@@ -9,6 +9,7 @@ public class DivisionHandling {
 
                 try{
                         int c = a/b;
+                        System.out.println(c);
                 }
                 catch(ArithmeticException ex){
                         System.out.println("Divide by zero error");
